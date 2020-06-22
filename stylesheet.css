@@ -222,7 +222,7 @@ header {
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
-  text-align: center; 
+  text-align: center;
 }
 
 .message {
@@ -347,11 +347,11 @@ footer {
 
 .newsletter .submit_nl{
 	height: 40px;
-	padding: 0 40px;
+	padding: 0;
 	border: 0;
 	color: #fdfdfd;
 	font-family: "LatoBold", arial;
-	font-size: 17px;
+	font-size: 14px;
 	font-weight: bold;
 	background-color: #575351;
 	float: right;
