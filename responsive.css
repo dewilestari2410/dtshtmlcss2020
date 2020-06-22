@@ -59,12 +59,6 @@
     text-align: center;
   }
 
-  .message-wrapper img{
-    display: block;
-    margin-left: 10px;
-    margin-right: auto;
-  }
-
   .message-wrapper h2 {
     font-size: 20px;
     line-height: 30px;
@@ -81,6 +75,7 @@
 
   .newsletter {
     text-align: center;
+    height: 230px;
   }
 
   footer {
