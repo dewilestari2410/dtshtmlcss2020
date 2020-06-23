@@ -1,7 +1,19 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
-    font-size: 32px;
+    font-size: 70px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 40px;
+  }
+
+  .top-wrapper h3 {
+    font-size: 30px;
+  }
+
+  .top-wrapper h4 {
+    font-size: 20px;
   }
 
   .heading h2 {
@@ -42,8 +54,19 @@
   }
 
   .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 50px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 30px;
+  }
+
+  .top-wrapper h3 {
+    font-size: 22px;
+  }
+
+  .top-wrapper h4 {
+    font-size: 12px;
   }
 
   .top-wrapper p {
@@ -81,4 +104,4 @@
   footer {
     text-align: center;
   }
-} 
+}
