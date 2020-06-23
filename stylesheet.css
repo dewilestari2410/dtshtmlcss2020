@@ -223,7 +223,7 @@ a {
 }
 */
 
-.top-wrapper h3 {
+.top-wrapper h3, .genre-wrapper h3 {
   font-size: 40px;
   display: inline-block;
   vertical-align: middle;
@@ -233,7 +233,7 @@ a {
   position: relative;
 }
 
-.top-wrapper h3:before, .top-wrapper h3:after {
+.top-wrapper h3:before, .top-wrapper h3:after, .genre-wrapper h3:before, .genre-wrapper h3:after {
   pointer-events: none;
   position: absolute;
   content: '';
@@ -249,19 +249,22 @@ a {
   transition-property: opacity;
 }
 
-.top-wrapper h3:before {
+.top-wrapper h3:before, .genre-wrapper h3:before {
   bottom: 100%;
   background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
 
-.top-wrapper h3:after {
+.top-wrapper h3:after, .genre-wrapper h3:after {
   top: 100%;
   background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
 
-.top-wrapper h3:hover:before, .top-wrapper h3:focus:before, .top-wrapper h3:active:before, .top-wrapper h3:hover:after, .top-wrapper h3:focus:after, .top-wrapper h3:active:after {
+.top-wrapper h3:hover:before, .top-wrapper h3:focus:before, .top-wrapper h3:active:before,
+.top-wrapper h3:hover:after, .top-wrapper h3:focus:after, .top-wrapper h3:active:after,
+.genre-wrapper h3:hover:before, .genre-wrapper h3:focus:before, .genre-wrapper h3:active:before,
+.genre-wrapper h3:hover:after, .genre-wrapper h3:focus:after, .genre-wrapper h3:active:after {
   opacity: 1;
 }
 
@@ -295,6 +298,10 @@ a {
 
 .btn-wrapper p {
   margin: 10px 0;
+}
+
+.btn-wrapper blink-search-field {
+  width: 100%;
 }
 
 .signup {
