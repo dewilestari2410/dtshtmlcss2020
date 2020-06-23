@@ -360,7 +360,7 @@ footer {
 	width: 110px;
 	height: 40px;
 	padding: 0 20px;
-	color: #949494;
+	color: #130f40;
 	font-family: "LatoRegular", arial;
 	font-size: 14px;
 
@@ -393,22 +393,22 @@ footer {
 
 .newsletter .email_field::-webkit-input-placeholder,
 .newsletter .name_field::-webkit-input-placeholder {
-   color: #d3d2d2;
+   color: #130f40;
 }
 
 .newsletter .email_field:-moz-placeholder ,
 .newsletter .name_field:-moz-placeholder {
-   color: #d3d2d2;
+   color: #130f40;
 }
 
 .newsletter .email_field::-moz-placeholder ,
 .newsletter .name_field::-moz-placeholder {
-   color: #d3d2d2;
+   color: #130f40;
 }
 
 .newsletter .email_field:-ms-input-placeholder,
 .newsletter .name_field:-ms-input-placeholder {
-   color: #d3d2d2;
+   color: #130f40;
 }
 
 .newsletter .email_field{
@@ -469,4 +469,4 @@ h5 {
     width: 100%;
   }
 }
-*/ 
+*/
